@@ -121,7 +121,6 @@ body
     width: 1200px
     margin-left: 0;
     margin-top: 0;
-    font-family: morganite;
 
 }
 
@@ -162,22 +161,18 @@ h1
 
 .about_text
 {
-    padding-top: 15px;
-    font-size: 20px;
-    color: black;
-    margin-top: 30px;
-    margin-left: 300px;
-    margin-right: 200px
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .cut
 {
     padding-top: 15px;
-    font-size: 20px;
     color: black;
     margin-top: 30px;
-    margin-left: 980px;
-    margin-right: 200px
+    margin-left: 1000px;
+    margin-right: 200px;
 
 }
 
@@ -199,12 +194,11 @@ h1
 
 .video_oriflame
 {
+    display: inline-block;
+    margin: 0 auto;
     padding-top: 20px;
     padding-left: 10px;
-    width: 100%;
-    background-size: cover;
-    height: 100vh;
-    align-self: center;
+
 }
 
 
