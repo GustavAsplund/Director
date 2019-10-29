@@ -78,25 +78,22 @@ header
     position: center;
     opacity: 0;
 }
-/* Logo position. float left because the main nav was out of place.  */
+/* Logo position. Float left because the main nav was out of place.  */
 
 
 header .front_logo {
-    background-image: url("ga_logo2.png");
-    background-size: 200px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 150px;
-    position: relative;
-    top: 270px;
-    left: 345px;
-    width: 320px;
-    opacity: 1;
-
-
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+    max-width:100%;
+    max-height:100%;
+    height: auto;
+    
 }
+/* max-width and max-height is for responsive.  */
 
-/* position relative is to adjust where the box begins. A hack. */
 
 
 body
@@ -189,28 +186,27 @@ h1
     text-transform: uppercase;
     text-align: center;
     margin-top: 100px;
+    padding-bottom: 50px;
     opacity: 1;
 }
 
-.video_oriflame
-{
-    display: inline-block;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-left: 10px;
 
-}
+video .video_oriflame {
+    width: 100%    !important;
+    height: auto   !important;
+  }
 
 
 .video_bjornborg_title
 {
-    padding-top: 1px;
+    padding-top: 200px;
     font-size: 25px;
     color: black;
     text-transform: uppercase;
     text-align: center;
     margin-top: 1px;
     opacity: 1;
+    padding-bottom: 50px;
 }
 
 
@@ -223,6 +219,7 @@ h1
     text-align: center;
     margin-top: 1px;
     opacity: 1;
+    padding-bottom: 50px;
 }
 
 .video_marabou_title
@@ -233,7 +230,20 @@ h1
     text-transform: uppercase;
     text-align: center;
     margin-top: 1px;
+    padding-bottom: 50px;
     opacity: 1;
+}
+
+.video_teleflora_title
+{
+    padding-top: 250px;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1px;
+    opacity: 1;
+    padding-bottom: 500px;
 }
 
 
