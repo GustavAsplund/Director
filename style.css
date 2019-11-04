@@ -95,6 +95,7 @@ header .front_logo {
 /* max-width and max-height is for responsive.  */
 
 
+       
 
 body
 {
@@ -169,7 +170,6 @@ h1
     color: black;
     margin-top: 30px;
     margin-left: 1000px;
-    margin-right: 200px;
 
 }
 
